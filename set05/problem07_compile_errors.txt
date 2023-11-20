@@ -1,0 +1,24 @@
+Compilation started at 11/14/2023, 4:35:22 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c:31:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+   31 |     input(&name);
+      |           ^~~~~
+      |           |
+      |           char (*)[30]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c:24:18: note: expected 'char *' but argument is of type 'char (*)[30]'
+   24 | void input(char *name);
+      |            ~~~~~~^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c: In function 'isVowel':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c:45:9: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+   45 |    ch = tolower(ch);
+      |         ^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c:23:1: note: include '<ctype.h>' or provide a declaration of 'tolower'
+   22 | #include<stdio.h>
+  +++ |+#include <ctype.h>
+   23 | 
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c: In function 'has_nice_name':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c:54:19: warning: implicit declaration of function 'isalpha' [-Wimplicit-function-declaration]
+   54 |        } else if (isalpha(name[i])) {
+      |                   ^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem07.c:54:19: note: include '<ctype.h>' or provide a declaration of 'isalpha'
+Compilation finished at 11/14/2023, 4:35:23 PM

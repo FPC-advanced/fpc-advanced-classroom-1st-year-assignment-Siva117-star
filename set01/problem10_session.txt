@@ -1,0 +1,134 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231017201838
+Username: DESKTOP-5E8KKA7\KOTA VENKATESHWARA R
+RunAs User: DESKTOP-5E8KKA7\KOTA VENKATESHWARA R
+Configuration Name: 
+Machine: DESKTOP-5E8KKA7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\KOTA VENKATESHWARA R\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 8396
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10_session.txt
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe" 2>&1
+gcc : c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe:
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in
+function `main':
+At line:1 char:1
++ gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-st ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:/mingw/bin/.....unction `main'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe" 2>&1
+gcc : d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'check':
+At line:1 char:1
++ gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-st ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (d:\Cpro\fpc-adv...nction 'check'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:13: warning: assignment to 'char *' from incompatible
+pointer type 'char **' [-Wincompatible-pointer-types]
+   18 |        *out =&string1;
+      |             ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:21:14: warning: assignment to 'char *' from incompatible
+pointer type 'char **' [-Wincompatible-pointer-types]
+   21 |         *out =&string2;
+      |              ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:23: warning: passing argument 1 of 'input_two_strings'
+from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |     input_two_strings(&string1,&string2);
+      |                       ^~~~~~~~
+      |                       |
+      |                       char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:31: note: expected 'char **' but argument is of type
+'char (*)[100]'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |                         ~~~~~~^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:32: warning: passing argument 2 of 'input_two_strings'
+from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |     input_two_strings(&string1,&string2);
+      |                                ^~~~~~~~
+      |                                |
+      |                                char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:50: note: expected 'char **' but argument is of type
+'char (*)[100]'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |                                            ~~~~~~^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:27: warning: passing argument 3 of 'check' from
+incompatible pointer type [-Wincompatible-pointer-types]
+   33 |     check(string1,string2,&out);
+      |                           ^~~~
+      |                           |
+      |                           char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:12:54: note: expected 'char **' but argument is of type
+'char (*)[100]'
+   12 | void check(char string1[100],char string2[100],char *out[100])
+      |                                                ~~~~~~^~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: warning: 'input_two_strings' accessing 800 bytes in
+a region of size 100 [-Wstringop-overflow=]
+   32 |     input_two_strings(&string1,&string2);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: note: referencing argument 1 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: warning: 'input_two_strings' accessing 800 bytes in
+a region of size 100 [-Wstringop-overflow=]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: note: referencing argument 2 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:7: note: in a call to function 'input_two_strings'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |       ^~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:5: warning: 'check' accessing 800 bytes in a region of
+size 100 [-Wstringop-overflow=]
+   33 |     check(string1,string2,&out);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:5: note: referencing argument 3 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:12:6: note: in a call to function 'check'
+   12 | void check(char string1[100],char string2[100],char *out[100])
+      |      ^~~~~
+
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe"
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem11.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem11.exe" 2>&1
+
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem11.exe"
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem11.exe
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem12.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem12.exe" 2>&1
+
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem12.exe"
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem12.exe
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem01.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem01.exe" 2>&1
+gcc : c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe:
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in
+function `main':
+At line:1 char:1
++ gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-st ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:/mingw/bin/.....unction `main'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem01.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem01.exe" 2>&1
+
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem01.exe"
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem01.exe
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem02.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem02.exe" 2>&1
+
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem02.exe"
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem02.exe
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem03.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem03.exe" 2>&1
+
+PS D:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star> "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem03.exe"
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem03.exe

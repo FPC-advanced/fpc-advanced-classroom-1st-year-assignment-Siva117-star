@@ -1,0 +1,294 @@
+Compilation started at 11/1/2023, 8:24:02 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'input':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:29:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   29 | int main(){
+      |           ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:39:55: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   39 | void input(int *num1, int *den1, int *num2, int *den2){
+      |                                                       ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:47:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   47 | {
+      | ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:56:78: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   56 | void output(int num1, int den1, int num2, int den2, int res_num, int res_den){
+      |                                                                              ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:23:6: error: old-style parameter declarations in prototyped function definition
+   23 | void input(int *num1, int *den1, int *num2, int *den2)
+      |      ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:64: error: expected '{' at end of input
+Compilation finished at 11/1/2023, 8:24:02 PM
+Compilation started at 11/1/2023, 8:24:20 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:33:5: error: too many arguments to function 'input'
+   33 |     input(&num1,&den1,&num2,&den2,&res_num,&res_den);
+      |     ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:23:6: note: declared here
+   23 | void input(int *num1, int *den1, int *num2, int *den2);
+      |      ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:5: warning: parameter names (without types) in function declaration
+   34 |     void add(num1,num2,den1,den2, res_num,res_den);
+      |     ^~~~
+Compilation finished at 11/1/2023, 8:24:20 PM
+Compilation started at 11/1/2023, 8:27:06 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:30: warning: passing argument 5 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2, res_num,res_den);
+      |                              ^~~~~~~
+      |                              |
+      |                              int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:55: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                  ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:38: warning: passing argument 6 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2, res_num,res_den);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:69: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                                ~~~~~^~~~~~~
+Compilation finished at 11/1/2023, 8:27:06 PM
+Compilation started at 11/1/2023, 8:28:32 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:30: warning: passing argument 5 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2, res_num,res_den);
+      |                              ^~~~~~~
+      |                              |
+      |                              int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:55: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                  ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:38: warning: passing argument 6 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2, res_num,res_den);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:69: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                                ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:35:4: warning: parameter names (without types) in function declaration
+   35 |    void output(num1,num2,den1,den2, res_num,res_den);
+      |    ^~~~
+Compilation finished at 11/1/2023, 8:28:32 PM
+Compilation started at 11/1/2023, 8:30:04 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:35:4: warning: parameter names (without types) in function declaration
+   35 |    void output(num1,num2,den1,den2, res_num,res_den);
+      |    ^~~~
+Compilation finished at 11/1/2023, 8:30:04 PM
+Compilation started at 11/1/2023, 8:32:12 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:29: warning: passing argument 5 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2,res_num,res_den);
+      |                             ^~~~~~~
+      |                             |
+      |                             int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:55: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                  ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:37: warning: passing argument 6 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2,res_num,res_den);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:69: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                                ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:35:4: warning: parameter names (without types) in function declaration
+   35 |    void output(num1,num2,den1,den2, res_num,res_den);
+      |    ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'add':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:54:12: warning: 'return' with a value, in function returning void
+   54 |     return res_num;
+      |            ^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:46:6: note: declared here
+   46 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
+      |      ^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:56:12: warning: 'return' with a value, in function returning void
+   56 |     return res_den;
+      |            ^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:46:6: note: declared here
+   46 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
+      |      ^~~
+Compilation finished at 11/1/2023, 8:32:12 PM
+Compilation started at 11/1/2023, 8:34:38 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:29: warning: passing argument 5 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2,res_num,res_den);
+      |                             ^~~~~~~
+      |                             |
+      |                             int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:55: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                  ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:37: warning: passing argument 6 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2,res_num,res_den);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:69: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                                ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:35:4: warning: parameter names (without types) in function declaration
+   35 |    void output(num1,num2,den1,den2, res_num,res_den);
+      |    ^~~~
+Compilation finished at 11/1/2023, 8:34:38 PM
+Compilation started at 11/1/2023, 8:37:30 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:29: warning: passing argument 5 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2,res_num,res_den);
+      |                             ^~~~~~~
+      |                             |
+      |                             int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:55: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                  ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:37: warning: passing argument 6 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2,res_num,res_den);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:69: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                                ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:35:4: warning: parameter names (without types) in function declaration
+   35 |    void output(num1,num2,den1,den2, res_num,res_den);
+      |    ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'input':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:41:9: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+   41 |    gets(num1);
+      |         ^~~~
+      |         |
+      |         int *
+In file included from d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:22:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:687:28: note: expected 'char *' but argument is of type 'int *'
+  687 |   char *__cdecl gets(char *_Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+      |                      ~~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:43:9: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+   43 |    gets(den1);
+      |         ^~~~
+      |         |
+      |         int *
+In file included from d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:22:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:687:28: note: expected 'char *' but argument is of type 'int *'
+  687 |   char *__cdecl gets(char *_Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+      |                      ~~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:45:9: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+   45 |    gets(num2);
+      |         ^~~~
+      |         |
+      |         int *
+In file included from d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:22:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:687:28: note: expected 'char *' but argument is of type 'int *'
+  687 |   char *__cdecl gets(char *_Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+      |                      ~~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:47:9: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |    gets(den2);
+      |         ^~~~
+      |         |
+      |         int *
+In file included from d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:22:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:687:28: note: expected 'char *' but argument is of type 'int *'
+  687 |   char *__cdecl gets(char *_Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+      |                      ~~~~~~^~~~~~~
+Compilation finished at 11/1/2023, 8:37:31 PM
+Compilation started at 11/1/2023, 8:40:56 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:29: warning: passing argument 5 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2,res_num,res_den);
+      |                             ^~~~~~~
+      |                             |
+      |                             int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:55: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                  ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:34:37: warning: passing argument 6 of 'add' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     add(num1,num2,den1,den2,res_num,res_den);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:25:69: note: expected 'int *' but argument is of type 'int'
+   25 | void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+      |                                                                ~~~~~^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:35:4: warning: parameter names (without types) in function declaration
+   35 |    void output(num1,num2,den1,den2, res_num,res_den);
+      |    ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'input':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:42:10: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+   42 |     gets(num1);
+      |          ^~~~
+      |          |
+      |          int *
+In file included from d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:22:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:687:28: note: expected 'char *' but argument is of type 'int *'
+  687 |   char *__cdecl gets(char *_Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+      |                      ~~~~~~^~~~~~~
+Compilation finished at 11/1/2023, 8:40:56 PM
+Compilation started at 11/1/2023, 8:44:37 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:35:4: warning: parameter names (without types) in function declaration
+   35 |    void output(num1,num2,den1,den2, res_num,res_den);
+      |    ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c: In function 'input':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:42:10: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+   42 |     gets(num1);
+      |          ^~~~
+      |          |
+      |          int *
+In file included from d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem01.c:22:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:687:28: note: expected 'char *' but argument is of type 'int *'
+  687 |   char *__cdecl gets(char *_Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+      |                      ~~~~~~^~~~~~~
+Compilation finished at 11/1/2023, 8:44:37 PM
+Compilation started at 11/1/2023, 8:48:20 PM
+Compilation finished at 11/1/2023, 8:48:21 PM
+Compilation started at 11/1/2023, 8:50:34 PM
+Compilation finished at 11/1/2023, 8:50:35 PM
+Compilation started at 11/1/2023, 8:51:21 PM
+Compilation finished at 11/1/2023, 8:51:21 PM
+Compilation started at 11/1/2023, 8:54:20 PM
+Compilation finished at 11/1/2023, 8:54:21 PM
+Compilation started at 11/1/2023, 8:54:50 PM
+Compilation finished at 11/1/2023, 8:54:51 PM
+Compilation started at 11/1/2023, 8:55:20 PM
+Compilation finished at 11/1/2023, 8:55:20 PM
+Compilation started at 11/1/2023, 8:57:48 PM
+Compilation finished at 11/1/2023, 8:57:48 PM
+Compilation started at 11/1/2023, 8:58:42 PM
+Compilation finished at 11/1/2023, 8:58:42 PM
+Compilation started at 11/1/2023, 8:59:16 PM
+Compilation finished at 11/1/2023, 8:59:16 PM
+Compilation started at 11/1/2023, 9:01:00 PM
+Compilation finished at 11/1/2023, 9:01:00 PM
+Compilation started at 11/1/2023, 9:04:49 PM
+Compilation finished at 11/1/2023, 9:04:50 PM
+Compilation started at 11/1/2023, 9:06:00 PM
+Compilation finished at 11/1/2023, 9:06:00 PM
+Compilation started at 11/1/2023, 9:07:15 PM
+Compilation finished at 11/1/2023, 9:07:16 PM
+Compilation started at 11/1/2023, 9:09:21 PM
+Compilation finished at 11/1/2023, 9:09:21 PM
+Compilation started at 11/1/2023, 9:11:09 PM
+Compilation finished at 11/1/2023, 9:11:10 PM
+Compilation started at 11/1/2023, 9:11:36 PM
+Compilation finished at 11/1/2023, 9:11:36 PM
+Compilation started at 11/1/2023, 9:11:57 PM
+Compilation finished at 11/1/2023, 9:11:57 PM
+Compilation started at 11/1/2023, 9:12:13 PM
+Compilation finished at 11/1/2023, 9:12:13 PM
+Compilation started at 11/1/2023, 9:12:53 PM
+Compilation finished at 11/1/2023, 9:12:53 PM
+Compilation started at 11/1/2023, 9:13:08 PM
+Compilation finished at 11/1/2023, 9:13:08 PM
+Compilation started at 11/1/2023, 9:13:30 PM
+Compilation finished at 11/1/2023, 9:13:30 PM
+Compilation started at 11/1/2023, 9:13:47 PM
+Compilation finished at 11/1/2023, 9:13:48 PM
+Compilation started at 11/1/2023, 9:14:21 PM
+Compilation finished at 11/1/2023, 9:14:21 PM
+Compilation started at 11/1/2023, 9:16:42 PM
+Compilation finished at 11/1/2023, 9:16:42 PM
+Compilation started at 11/1/2023, 9:17:14 PM
+Compilation finished at 11/1/2023, 9:17:14 PM
+Compilation started at 11/2/2023, 3:38:41 PM
+Compilation finished at 11/2/2023, 3:38:42 PM

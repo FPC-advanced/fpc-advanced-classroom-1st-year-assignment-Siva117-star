@@ -1,0 +1,204 @@
+Compilation started at 11/15/2023, 7:55:34 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:39:7: warning: implicit declaration of function 'input'; did you mean 'input_x'? [-Wimplicit-function-declaration]
+   39 |     x=input(x);
+      |       ^~~~~
+      |       input_x
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:41:12: warning: passing argument 1 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   41 |     output(a,n,x,result);
+      |            ^
+      |            |
+      |            float *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:30:17: note: expected 'int' but argument is of type 'float *'
+   30 | void output(int n, float a[n], float x, float result);
+      |             ~~~~^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:41:14: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+   41 |     output(a,n,x,result);
+      |              ^
+      |              |
+      |              int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:30:26: note: expected 'float *' but argument is of type 'int'
+   30 | void output(int n, float a[n], float x, float result);
+      |                    ~~~~~~^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: In function 'input_coefficients':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:57:5: warning: implicit declaration of function 'prinf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   57 |     prinf("Input cooefficient \n");
+      |     ^~~~~
+      |     printf
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:63:14: warning: 'return' with a value, in function returning void
+   63 |      return a[n];
+      |             ~^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:56:6: note: declared here
+   56 | void input_coefficients(int n, float a[n]){
+      |      ^~~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:68:8: error: conflicting types for 'input'; have 'float(float)'
+   68 |  float input(float x){
+      |        ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:39:7: note: previous implicit declaration of 'input' with type 'int()'
+   39 |     x=input(x);
+      |       ^~~~~
+Compilation finished at 11/15/2023, 7:55:34 PM
+Compilation started at 11/15/2023, 7:55:57 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:39:7: warning: implicit declaration of function 'input'; did you mean 'input_x'? [-Wimplicit-function-declaration]
+   39 |     x=input(x);
+      |       ^~~~~
+      |       input_x
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:41:12: warning: passing argument 1 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   41 |     output(a,n,x,result);
+      |            ^
+      |            |
+      |            float *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:30:17: note: expected 'int' but argument is of type 'float *'
+   30 | void output(int n, float a[n], float x, float result);
+      |             ~~~~^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:41:14: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+   41 |     output(a,n,x,result);
+      |              ^
+      |              |
+      |              int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:30:26: note: expected 'float *' but argument is of type 'int'
+   30 | void output(int n, float a[n], float x, float result);
+      |                    ~~~~~~^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: In function 'input_coefficients':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:63:14: warning: 'return' with a value, in function returning void
+   63 |      return a[n];
+      |             ~^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:56:6: note: declared here
+   56 | void input_coefficients(int n, float a[n]){
+      |      ^~~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:68:8: error: conflicting types for 'input'; have 'float(float)'
+   68 |  float input(float x){
+      |        ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:39:7: note: previous implicit declaration of 'input' with type 'int()'
+   39 |     x=input(x);
+      |       ^~~~~
+Compilation finished at 11/15/2023, 7:55:57 PM
+Compilation started at 11/15/2023, 7:57:07 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:39:7: warning: implicit declaration of function 'input'; did you mean 'input_x'? [-Wimplicit-function-declaration]
+   39 |     x=input(x);
+      |       ^~~~~
+      |       input_x
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:41:12: warning: passing argument 1 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   41 |     output(a,n,x,result);
+      |            ^
+      |            |
+      |            float *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:30:17: note: expected 'int' but argument is of type 'float *'
+   30 | void output(int n, float a[n], float x, float result);
+      |             ~~~~^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:41:14: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+   41 |     output(a,n,x,result);
+      |              ^
+      |              |
+      |              int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:30:26: note: expected 'float *' but argument is of type 'int'
+   30 | void output(int n, float a[n], float x, float result);
+      |                    ~~~~~~^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:68:8: error: conflicting types for 'input_x'; have 'float(float)'
+   68 |  float input_x(float x){
+      |        ^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:68:2: note: an argument type that has a default promotion cannot match an empty parameter name list declaration
+   68 |  float input_x(float x){
+      |  ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:28:7: note: previous declaration of 'input_x' with type 'float()'
+   28 | float input_x();
+      |       ^~~~~~~
+Compilation finished at 11/15/2023, 7:57:07 PM
+Compilation started at 11/15/2023, 7:58:56 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:41:12: warning: passing argument 1 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   41 |     output(a,n,x,result);
+      |            ^
+      |            |
+      |            float *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:30:17: note: expected 'int' but argument is of type 'float *'
+   30 | void output(int n, float a[n], float x, float result);
+      |             ~~~~^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:41:14: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+   41 |     output(a,n,x,result);
+      |              ^
+      |              |
+      |              int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:30:26: note: expected 'float *' but argument is of type 'int'
+   30 | void output(int n, float a[n], float x, float result);
+      |                    ~~~~~~^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:68:8: error: conflicting types for 'input_x'; have 'float(float)'
+   68 |  float input_x(float x){
+      |        ^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:68:2: note: an argument type that has a default promotion cannot match an empty parameter name list declaration
+   68 |  float input_x(float x){
+      |  ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:28:7: note: previous declaration of 'input_x' with type 'float()'
+   28 | float input_x();
+      |       ^~~~~~~
+Compilation finished at 11/15/2023, 7:58:56 PM
+Compilation started at 11/15/2023, 8:01:37 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:68:8: error: conflicting types for 'input_x'; have 'float(float)'
+   68 |  float input_x(float x){
+      |        ^~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:68:2: note: an argument type that has a default promotion cannot match an empty parameter name list declaration
+   68 |  float input_x(float x){
+      |  ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:28:7: note: previous declaration of 'input_x' with type 'float()'
+   28 | float input_x();
+      |       ^~~~~~~
+Compilation finished at 11/15/2023, 8:01:38 PM
+Compilation started at 11/15/2023, 8:03:18 PM
+Compilation finished at 11/15/2023, 8:03:19 PM
+Compilation started at 11/15/2023, 8:05:58 PM
+Compilation finished at 11/15/2023, 8:05:58 PM
+Compilation started at 11/15/2023, 8:07:59 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c: In function 'input_coefficients':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:58:14: warning: 'return' with a value, in function returning void
+   58 |      return a[n]; // this change is been made
+      |             ~^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem04.c:51:6: note: declared here
+   51 | void input_coefficients(int n, float a[n]){
+      |      ^~~~~~~~~~~~~~~~~~
+Compilation finished at 11/15/2023, 8:07:59 PM
+Compilation started at 11/15/2023, 8:09:37 PM
+Compilation finished at 11/15/2023, 8:09:37 PM
+Compilation started at 11/15/2023, 8:10:30 PM
+Compilation finished at 11/15/2023, 8:10:30 PM
+Compilation started at 11/15/2023, 8:11:24 PM
+Compilation finished at 11/15/2023, 8:11:24 PM
+Compilation started at 11/15/2023, 8:12:14 PM
+Compilation finished at 11/15/2023, 8:12:14 PM
+Compilation started at 11/15/2023, 8:12:52 PM
+Compilation finished at 11/15/2023, 8:12:52 PM
+Compilation started at 11/15/2023, 8:16:08 PM
+Compilation finished at 11/15/2023, 8:16:08 PM
+Compilation started at 11/15/2023, 8:16:33 PM
+Compilation finished at 11/15/2023, 8:16:34 PM
+Compilation started at 11/15/2023, 8:17:42 PM
+Compilation finished at 11/15/2023, 8:17:43 PM
+Compilation started at 11/15/2023, 8:18:16 PM
+Compilation finished at 11/15/2023, 8:18:16 PM
+Compilation started at 11/15/2023, 8:19:27 PM
+Compilation finished at 11/15/2023, 8:19:28 PM
+Compilation started at 11/15/2023, 8:21:01 PM
+Compilation finished at 11/15/2023, 8:21:02 PM
+Compilation started at 11/15/2023, 8:24:19 PM
+Compilation finished at 11/15/2023, 8:24:19 PM
+Compilation started at 11/15/2023, 8:25:38 PM
+Compilation finished at 11/15/2023, 8:25:39 PM
+Compilation started at 11/15/2023, 8:26:15 PM
+Compilation finished at 11/15/2023, 8:26:16 PM
+Compilation started at 11/15/2023, 8:27:53 PM
+Compilation finished at 11/15/2023, 8:27:54 PM
+Compilation started at 11/15/2023, 8:28:29 PM
+Compilation finished at 11/15/2023, 8:28:29 PM
+Compilation started at 11/15/2023, 8:29:08 PM
+Compilation finished at 11/15/2023, 8:29:08 PM
+Compilation started at 11/15/2023, 8:29:41 PM
+Compilation finished at 11/15/2023, 8:29:42 PM
+Compilation started at 11/15/2023, 8:30:57 PM
+Compilation finished at 11/15/2023, 8:30:57 PM
+Compilation started at 11/15/2023, 8:33:30 PM
+Compilation finished at 11/15/2023, 8:33:30 PM

@@ -1,0 +1,12 @@
+Compilation started at 11/7/2023, 5:53:28 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem02.c: In function 'find_weight':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem02.c:56:24: error: invalid operands to binary ^ (have 'double' and 'double')
+   56 |     weight= 3.14*radius^3*sqrt(height*length);
+      |             ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+      |                 |        |
+      |                 double   double
+Compilation finished at 11/7/2023, 5:53:28 AM
+Compilation started at 11/7/2023, 5:54:36 AM
+Compilation finished at 11/7/2023, 5:54:36 AM
+Compilation started at 11/7/2023, 6:09:03 AM
+Compilation finished at 11/7/2023, 6:09:04 AM

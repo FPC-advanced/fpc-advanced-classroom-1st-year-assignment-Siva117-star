@@ -1,0 +1,112 @@
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\KOTAVE~1\AppData\Local\Temp\ccwqPiYC.o: in function `main':
+d:/Cpro/fpc-advanced-classroom-1st-year-assignment-Siva117-star/set01/problem08.c:13: undefined reference to `output'
+collect2.exe: error: ld returned 1 exit status
+Compilation started at 11/20/2023, 9:38:54 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:5:19: error: 'n' undeclared here (not in a function)
+    5 | void output(int a[n],int sum);
+      |                   ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:13:13: error: type of formal parameter 1 is incomplete
+   13 |     output(a[n],sum);
+      |            ~^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:43:19: error: 'n' undeclared here (not in a function)
+   43 | void output(int a[n],int sum){
+      |                   ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:44:44: error: 'n' undeclared (first use in this function)
+   44 |     printf("The array %d and sum is %d",&a[n],sum);
+      |                                            ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:44:44: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/20/2023, 9:38:54 AM
+Compilation started at 11/20/2023, 9:43:15 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:13:16: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+   13 |     output(n, a[n],sum);
+      |               ~^~~
+      |                |
+      |                int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:5:24: note: expected 'int *' but argument is of type 'int'
+    5 | void output(int n, int a[n], int sum);
+      |                    ~~~~^~~~
+Compilation finished at 11/20/2023, 9:43:16 AM
+Compilation started at 11/20/2023, 9:43:45 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:13:16: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+   13 |     output(n, a[n],sum);
+      |               ~^~~
+      |                |
+      |                int
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:5:24: note: expected 'int *' but argument is of type 'int'
+    5 | void output(int n, int a[n], int sum);
+      |                    ~~~~^~~~
+Compilation finished at 11/20/2023, 9:43:45 AM
+Compilation started at 11/20/2023, 9:44:32 AM
+Compilation finished at 11/20/2023, 9:44:32 AM
+Compilation started at 11/20/2023, 9:45:05 AM
+Compilation finished at 11/20/2023, 9:45:05 AM
+Compilation started at 11/20/2023, 9:46:16 AM
+Compilation finished at 11/20/2023, 9:46:16 AM
+Compilation started at 11/20/2023, 9:50:18 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:51:13: warning: 'return' with a value, in function returning void
+   51 |     return a[i];
+      |            ~^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:43:6: note: declared here
+   43 | void output(int n, int a[n], int sum){
+      |      ^~~~~~
+Compilation finished at 11/20/2023, 9:50:18 AM
+Compilation started at 11/20/2023, 9:54:14 AM
+Compilation finished at 11/20/2023, 9:54:14 AM
+Compilation started at 11/20/2023, 9:54:59 AM
+Compilation finished at 11/20/2023, 9:54:59 AM
+Compilation started at 11/20/2023, 9:56:01 AM
+Compilation finished at 11/20/2023, 9:56:01 AM
+Compilation started at 11/20/2023, 9:56:29 AM
+Compilation finished at 11/20/2023, 9:56:30 AM
+Compilation started at 11/20/2023, 9:57:34 AM
+Compilation finished at 11/20/2023, 9:57:34 AM
+Compilation started at 11/20/2023, 9:59:21 AM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/20/2023, 9:59:21 AM
+Compilation started at 11/20/2023, 10:29:09 AM
+Compilation finished at 11/20/2023, 10:29:09 AM
+Compilation started at 11/20/2023, 10:29:18 AM
+Compilation finished at 11/20/2023, 10:29:18 AM
+Compilation started at 11/20/2023, 10:29:50 AM
+Compilation finished at 11/20/2023, 10:29:50 AM
+Compilation started at 11/20/2023, 10:32:05 AM
+Compilation finished at 11/20/2023, 10:32:06 AM
+Compilation started at 11/20/2023, 10:32:37 AM
+Compilation finished at 11/20/2023, 10:32:38 AM
+Compilation started at 11/20/2023, 10:33:15 AM
+Compilation finished at 11/20/2023, 10:33:15 AM
+Compilation started at 11/20/2023, 10:34:44 AM
+Compilation finished at 11/20/2023, 10:34:44 AM
+Compilation started at 11/20/2023, 10:37:40 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:12:9: error: too many arguments to function 'find_sum_array'
+   12 |     sum=find_sum_array(n,a,sum);
+      |         ^~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:4:5: note: declared here
+    4 | int find_sum_array(int n, int a[n]);
+      |     ^~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c: In function 'find_sum_array':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:38:9: error: 'sum' undeclared (first use in this function)
+   38 |         sum =sum+ a[i];
+      |         ^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem08.c:38:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/20/2023, 10:37:40 AM
+Compilation started at 11/20/2023, 10:40:28 AM
+Compilation finished at 11/20/2023, 10:40:28 AM
+Compilation started at 11/20/2023, 10:42:00 AM
+Compilation finished at 11/20/2023, 10:42:00 AM
+Compilation started at 11/20/2023, 10:42:44 AM
+Compilation finished at 11/20/2023, 10:42:44 AM
+Compilation started at 11/20/2023, 10:43:46 AM
+Compilation finished at 11/20/2023, 10:43:46 AM
+Compilation started at 11/20/2023, 10:47:27 AM
+Compilation finished at 11/20/2023, 10:47:27 AM
+Compilation started at 11/20/2023, 10:50:51 AM
+Compilation finished at 11/20/2023, 10:50:52 AM

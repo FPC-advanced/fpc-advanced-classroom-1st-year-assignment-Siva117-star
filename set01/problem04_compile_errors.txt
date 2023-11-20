@@ -1,0 +1,4 @@
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem04.c: In function 'add':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem04.c:24:9: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   24 |  return sum;
+      |         ^~~

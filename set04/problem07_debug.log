@@ -1,0 +1,9 @@
++limp
+Undefined command: "limp".  Try "help".
++r
+Starting program:  
+No executable specified, use `target exec'.
++target problem04
+Undefined target command: "problem04".  Try "help target".
++target problem04.exe
+Undefined target command: "problem04.exe".  Try "help target".

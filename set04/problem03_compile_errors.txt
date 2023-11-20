@@ -1,0 +1,535 @@
+Compilation started at 11/2/2023, 3:49:34 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:5: warning: implicit declaration of function 'input_n_and_r' [-Wimplicit-function-declaration]
+   23 |     input_n_and_r(&n,&r);
+      |     ^~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:24:5: warning: implicit declaration of function 'nCr' [-Wimplicit-function-declaration]
+   24 |     nCr(n,r);
+      |     ^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:25:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   25 |     output(n,r,&result);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:29:6: warning: conflicting types for 'input_n_and_r'; have 'void(int *, int *)'
+   29 | void input_n_and_r(int *n, int *r){
+      |      ^~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:5: note: previous implicit declaration of 'input_n_and_r' with type 'void(int *, int *)'
+   23 |     input_n_and_r(&n,&r);
+      |     ^~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'input_n_and_r':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   30 |     printf("Enter the n \n");
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | // 3. Write a program to find the `nCr` of given n and r
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   30 |     printf("Enter the n \n");
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:31:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   31 |     scanf("%d", n);
+      |     ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:31:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:31:5: warning: incompatible implicit declaration of built-in function 'scanf' [-Wbuiltin-declaration-mismatch]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:31:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'nCr':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:44:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   44 |         {
+      |         ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:13: error: called object 'result' is not a function or function pointer
+   45 |      return result(n) / (result(r) * result(n - r));
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:40:9: note: declared here
+   40 |     int result = 1;
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:26: error: called object 'result' is not a function or function pointer
+   45 |      return result(n) / (result(r) * result(n - r));
+      |                          ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:40:9: note: declared here
+   40 |     int result = 1;
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:38: error: called object 'result' is not a function or function pointer
+   45 |      return result(n) / (result(r) * result(n - r));
+      |                                      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:40:9: note: declared here
+   40 |     int result = 1;
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:50:6: warning: conflicting types for 'output'; have 'void(int,  int,  int)'
+   50 | void output(int n, int r, int result){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:25:5: note: previous implicit declaration of 'output' with type 'void(int,  int,  int)'
+   25 |     output(n,r,&result);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:51:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   51 |     printf("The ans is %d , %d = %d",n,r,result);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:51:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/2/2023, 3:49:34 PM
+Compilation started at 11/2/2023, 3:51:48 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:5: warning: implicit declaration of function 'input_n_and_r' [-Wimplicit-function-declaration]
+   23 |     input_n_and_r(&n,&r);
+      |     ^~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:24:5: warning: implicit declaration of function 'nCr' [-Wimplicit-function-declaration]
+   24 |     nCr(n,r);
+      |     ^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:25:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   25 |     output(n,r,&result);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:29:6: warning: conflicting types for 'input_n_and_r'; have 'void(int *, int *)'
+   29 | void input_n_and_r(int *n, int *r){
+      |      ^~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:5: note: previous implicit declaration of 'input_n_and_r' with type 'void(int *, int *)'
+   23 |     input_n_and_r(&n,&r);
+      |     ^~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'input_n_and_r':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   30 |     printf("Enter the n \n");
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | // 3. Write a program to find the `nCr` of given n and r
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   30 |     printf("Enter the n \n");
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:31:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   31 |     scanf("%d", n);
+      |     ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:31:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:31:5: warning: incompatible implicit declaration of built-in function 'scanf' [-Wbuiltin-declaration-mismatch]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:31:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'nCr':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:43:13: error: called object 'result' is not a function or function pointer
+   43 |      return result(n) / (result(r) * result(n - r));
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:40:9: note: declared here
+   40 |     int result = 1;
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:43:26: error: called object 'result' is not a function or function pointer
+   43 |      return result(n) / (result(r) * result(n - r));
+      |                          ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:40:9: note: declared here
+   40 |     int result = 1;
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:43:38: error: called object 'result' is not a function or function pointer
+   43 |      return result(n) / (result(r) * result(n - r));
+      |                                      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:40:9: note: declared here
+   40 |     int result = 1;
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:48:6: warning: conflicting types for 'output'; have 'void(int,  int,  int)'
+   48 | void output(int n, int r, int result){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:25:5: note: previous implicit declaration of 'output' with type 'void(int,  int,  int)'
+   25 |     output(n,r,&result);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   49 |     printf("The ans is %d , %d = %d",n,r,result);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/2/2023, 3:51:48 PM
+Compilation started at 11/2/2023, 3:52:29 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'nCr':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:13: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:9: note: declared here
+   45 |     int result = 1;
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:26: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |                          ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:9: note: declared here
+   45 |     int result = 1;
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:38: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |                                      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:9: note: declared here
+   45 |     int result = 1;
+      |         ^~~~~~
+Compilation finished at 11/2/2023, 3:52:29 PM
+Compilation started at 11/2/2023, 3:52:44 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'nCr':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:13: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:43:8: note: declared here
+   43 |    int result;
+      |        ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:26: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |                          ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:43:8: note: declared here
+   43 |    int result;
+      |        ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:38: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |                                      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:43:8: note: declared here
+   43 |    int result;
+      |        ^~~~~~
+Compilation finished at 11/2/2023, 3:52:45 PM
+Compilation started at 11/2/2023, 3:53:14 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'nCr':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:13: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:10: note: declared here
+   45 |      int result;
+      |          ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:26: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |                          ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:10: note: declared here
+   45 |      int result;
+      |          ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:49:38: error: called object 'result' is not a function or function pointer
+   49 |      return result(n) / (result(r) * result(n - r));
+      |                                      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:45:10: note: declared here
+   45 |      int result;
+      |          ^~~~~~
+Compilation finished at 11/2/2023, 3:53:14 PM
+Compilation started at 11/2/2023, 3:55:25 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 3:55:25 PM
+Compilation started at 11/2/2023, 3:56:09 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 3:56:10 PM
+Compilation started at 11/2/2023, 3:58:18 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 3:58:19 PM
+Compilation started at 11/2/2023, 4:04:40 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:04:40 PM
+Compilation started at 11/2/2023, 4:06:24 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:06:24 PM
+Compilation started at 11/2/2023, 4:07:03 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:07:04 PM
+Compilation started at 11/2/2023, 4:07:17 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:07:18 PM
+Compilation started at 11/2/2023, 4:07:38 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:07:39 PM
+Compilation started at 11/2/2023, 4:08:26 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:08:27 PM
+Compilation started at 11/2/2023, 4:08:37 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:08:37 PM
+Compilation started at 11/2/2023, 4:09:34 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:09:34 PM
+Compilation started at 11/2/2023, 4:10:04 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:10:05 PM
+Compilation started at 11/2/2023, 4:14:33 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:14:34 PM
+Compilation started at 11/2/2023, 4:15:00 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:15:01 PM
+Compilation started at 11/2/2023, 4:15:44 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:15:44 PM
+Compilation started at 11/2/2023, 4:16:01 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:16:02 PM
+Compilation started at 11/2/2023, 4:16:37 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:16:37 PM
+Compilation started at 11/2/2023, 4:17:18 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:17:18 PM
+Compilation started at 11/2/2023, 4:19:19 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:19:19 PM
+Compilation started at 11/2/2023, 4:19:41 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:19:42 PM
+Compilation started at 11/2/2023, 4:20:29 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:20:29 PM
+Compilation started at 11/2/2023, 4:21:57 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:21:57 PM
+Compilation started at 11/2/2023, 4:22:37 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:22:38 PM
+Compilation started at 11/2/2023, 4:22:59 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:23:00 PM
+Compilation started at 11/2/2023, 4:24:40 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:24:41 PM
+Compilation started at 11/2/2023, 4:25:55 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:25:56 PM
+Compilation started at 11/2/2023, 4:26:23 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/2/2023, 4:26:24 PM
+Compilation started at 11/5/2023, 7:42:51 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:30:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   30 |     output(n,r,&result);
+      |                ^~~~~~~
+      |                |
+      |                int *
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set04\problem03.c:23:31: note: expected 'int' but argument is of type 'int *'
+   23 | void output(int n, int r, int result);
+      |                           ~~~~^~~~~~
+Compilation finished at 11/5/2023, 7:42:53 PM

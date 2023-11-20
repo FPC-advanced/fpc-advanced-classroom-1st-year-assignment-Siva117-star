@@ -1,0 +1,101 @@
+Compilation started at 11/7/2023, 6:12:08 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'find_mood':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:33:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   33 | int main(){
+      |           ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:44:70: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   44 | void input_camel_details(float *radius, float *height, float *length){
+      |                                                                      ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:53:56: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   53 | int find_mood(float radius, float height, float length){
+      |                                                        ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:73:64: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   73 | void output(float radius, float height, float length, int mood){
+      |                                                                ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:30:5: error: old-style parameter declarations in prototyped function definition
+   30 | int find_mood(float radius, float height, float length)
+      |     ^~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:76: error: expected '{' at end of input
+Compilation finished at 11/7/2023, 6:12:09 AM
+Compilation started at 11/7/2023, 6:12:21 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'find_mood':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:33:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   33 | int main(){
+      |           ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:44:70: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   44 | void input_camel_details(float *radius, float *height, float *length){
+      |                                                                      ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:53:56: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   53 | int find_mood(float radius, float height, float length){
+      |                                                        ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:73:64: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   73 | void output(float radius, float height, float length, int mood){
+      |                                                                ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:30:5: error: old-style parameter declarations in prototyped function definition
+   30 | int find_mood(float radius, float height, float length)
+      |     ^~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:76: error: expected '{' at end of input
+Compilation finished at 11/7/2023, 6:12:21 AM
+Compilation started at 11/7/2023, 6:12:52 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'input_camel_details':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:46:7: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   46 |       printf("Enter the radius \n");
+      |       ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | // 4.  Write a program to find out the mood of a Camel.
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:46:7: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   46 |       printf("Enter the radius \n");
+      |       ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:46:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:47:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   47 |     scanf("%f", radius);
+      |     ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:47:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:47:5: warning: incompatible implicit declaration of built-in function 'scanf' [-Wbuiltin-declaration-mismatch]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:47:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'find_mood':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:68:33: error: expected ';' before '{' token
+   68 |     }else(length<height&&radius){
+      |                                 ^
+      |                                 ;
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:75:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   75 |     printf("THE radius a %F and height %f and length is %f =  %f",radius,height,length,mood);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:75:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/7/2023, 6:12:52 AM
+Compilation started at 11/7/2023, 6:13:16 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'find_mood':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:68:33: error: expected ';' before '{' token
+   68 |     }else(length<height&&radius){
+      |                                 ^
+      |                                 ;
+Compilation finished at 11/7/2023, 6:13:16 AM
+Compilation started at 11/7/2023, 6:14:10 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'find_mood':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:69:33: error: expected ';' before '{' token
+   69 |     }else(length<height&&radius)
+      |                                 ^
+      |                                 ;
+   70 |     {
+      |     ~                            
+Compilation finished at 11/7/2023, 6:14:10 AM
+Compilation started at 11/7/2023, 6:18:21 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'find_mood':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:69:33: error: expected ';' before '{' token
+   69 |     }else(length<height&&radius)
+      |                                 ^
+      |                                 ;
+   70 |     {
+      |     ~                            
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem04.c:84:19: error: expected ';' before '{' token
+   84 |     }else(mood==3){
+      |                   ^
+      |                   ;
+Compilation finished at 11/7/2023, 6:18:21 AM
+Compilation started at 11/7/2023, 6:18:56 AM
+Compilation finished at 11/7/2023, 6:18:56 AM
+Compilation started at 11/7/2023, 6:20:00 AM
+Compilation finished at 11/7/2023, 6:20:00 AM

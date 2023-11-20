@@ -1,0 +1,41 @@
+Compilation started at 11/9/2023, 4:03:01 PM
+Compilation finished at 11/9/2023, 4:03:01 PM
+Compilation started at 11/9/2023, 4:05:06 PM
+Compilation finished at 11/9/2023, 4:05:06 PM
+Compilation started at 11/9/2023, 4:17:18 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem06.c: In function 'odd_average':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem06.c:63:12: error: conflicting types for 'avg'; have 'int'
+   63 |        int avg;
+      |            ^~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem06.c:62:15: note: previous definition of 'avg' with type 'double'
+   62 |        double avg = (a[i] + a[i + 1]) / 2.0;
+      |               ^~~
+Compilation finished at 11/9/2023, 4:17:18 PM
+Compilation started at 11/9/2023, 4:17:47 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem06.c: In function 'odd_average':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem06.c:64:16: error: invalid operands to binary % (have 'float' and 'int')
+   64 |        if (avg % 2 != 0) {
+      |                ^
+Compilation finished at 11/9/2023, 4:17:48 PM
+Compilation started at 11/9/2023, 4:18:11 PM
+Compilation finished at 11/9/2023, 4:18:12 PM
+Compilation started at 11/9/2023, 4:18:35 PM
+Compilation finished at 11/9/2023, 4:18:36 PM
+Compilation started at 11/9/2023, 4:18:47 PM
+Compilation finished at 11/9/2023, 4:18:47 PM
+Compilation started at 11/9/2023, 4:19:05 PM
+Compilation finished at 11/9/2023, 4:19:06 PM
+Compilation started at 11/9/2023, 4:20:44 PM
+Compilation finished at 11/9/2023, 4:20:44 PM
+Compilation started at 11/9/2023, 4:21:44 PM
+Compilation finished at 11/9/2023, 4:21:44 PM
+Compilation started at 11/9/2023, 4:23:30 PM
+Compilation finished at 11/9/2023, 4:23:31 PM
+Compilation started at 11/9/2023, 4:24:13 PM
+Compilation finished at 11/9/2023, 4:24:13 PM
+Compilation started at 11/9/2023, 4:25:04 PM
+Compilation finished at 11/9/2023, 4:25:04 PM
+Compilation started at 11/9/2023, 4:28:21 PM
+Compilation finished at 11/9/2023, 4:28:21 PM
+Compilation started at 11/9/2023, 4:30:35 PM
+Compilation finished at 11/9/2023, 4:30:35 PM

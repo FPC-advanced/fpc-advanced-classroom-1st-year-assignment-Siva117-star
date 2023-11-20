@@ -1,0 +1,48 @@
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'check':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:13: warning: assignment to 'char *' from incompatible pointer type 'char **' [-Wincompatible-pointer-types]
+   18 |        *out =&string1;
+      |             ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:21:14: warning: assignment to 'char *' from incompatible pointer type 'char **' [-Wincompatible-pointer-types]
+   21 |         *out =&string2;
+      |              ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:23: warning: passing argument 1 of 'input_two_strings' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |     input_two_strings(&string1,&string2);
+      |                       ^~~~~~~~
+      |                       |
+      |                       char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:31: note: expected 'char **' but argument is of type 'char (*)[100]'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |                         ~~~~~~^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:32: warning: passing argument 2 of 'input_two_strings' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |     input_two_strings(&string1,&string2);
+      |                                ^~~~~~~~
+      |                                |
+      |                                char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:50: note: expected 'char **' but argument is of type 'char (*)[100]'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |                                            ~~~~~~^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:27: warning: passing argument 3 of 'check' from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |     check(string1,string2,&out);
+      |                           ^~~~
+      |                           |
+      |                           char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:12:54: note: expected 'char **' but argument is of type 'char (*)[100]'
+   12 | void check(char string1[100],char string2[100],char *out[100])
+      |                                                ~~~~~~^~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: warning: 'input_two_strings' accessing 800 bytes in a region of size 100 [-Wstringop-overflow=]
+   32 |     input_two_strings(&string1,&string2);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: note: referencing argument 1 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: warning: 'input_two_strings' accessing 800 bytes in a region of size 100 [-Wstringop-overflow=]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: note: referencing argument 2 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:7: note: in a call to function 'input_two_strings'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |       ^~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:5: warning: 'check' accessing 800 bytes in a region of size 100 [-Wstringop-overflow=]
+   33 |     check(string1,string2,&out);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:5: note: referencing argument 3 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:12:6: note: in a call to function 'check'
+   12 | void check(char string1[100],char string2[100],char *out[100])
+      |      ^~~~~
