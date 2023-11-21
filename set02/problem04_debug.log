@@ -1,0 +1,7 @@
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem04.exe 
+[New Thread 10180.0x2904]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 10180.0x2904 exited with code 0]
+[Inferior 1 (process 10180) exited normally]
++q

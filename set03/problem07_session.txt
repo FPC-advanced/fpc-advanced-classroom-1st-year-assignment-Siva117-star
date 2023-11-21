@@ -1,0 +1,68 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231030101105
+Username: DESKTOP-5E8KKA7\KOTA VENKATESHWARA R
+RunAs User: DESKTOP-5E8KKA7\KOTA VENKATESHWARA R
+Configuration Name: 
+Machine: DESKTOP-5E8KKA7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\KOTA VENKATESHWARA R\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 12988
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07_session.txt
+]633;E;Start-Transcript -Path "d:\x5cCpro\x5cfpc-advanced-classroom-1st-year-assignment-Siva117-star\x5cset03\x5cproblem07_session.txt";c3a29cac-435e-40f7-822f-5bf81d24e2ba]633;D;0]633;A]633;P;Cwd=D:\x5cCproPS D:\Cpro> ]633;B
+PS>gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.exe" 2>&1
+gcc : d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c: In function 'main':
+At line:1 char:1
++ gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-st ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (d:\Cpro\fpc-adv...unction 'main'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:34:17: warning: implicit declaration of function
+'input_line' [-Wimplicit-function-declaration]
+   34 |     Line line = input_line();
+      |                 ^~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:34:17: error: invalid initializer
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:35:5: warning: implicit declaration of function
+'find_length' [-Wimplicit-function-declaration]
+   35 |     find_length(&line);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:36:5: warning: implicit declaration of function 'output'
+[-Wimplicit-function-declaration]
+   36 |     output(line);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:51:6: error: conflicting types for 'input_line'; have
+'Line()' {aka 'struct line()'}
+   51 | Line input_line() {
+      |      ^~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:34:17: note: previous implicit declaration of
+'input_line' with type 'int()'
+   34 |     Line line = input_line();
+      |                 ^~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:61:6: warning: conflicting types for 'find_length'; have
+'void(Line *)' {aka 'void(struct line *)'}
+   61 | void find_length(Line *l) {
+      |      ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:35:5: note: previous implicit declaration of
+'find_length' with type 'void(Line *)' {aka 'void(struct line *)'}
+   35 |     find_length(&line);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:68:6: warning: conflicting types for 'output'; have
+'void(Line)' {aka 'void(struct line)'}
+   68 | void output(Line l) {
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:36:5: note: previous implicit declaration of 'output'
+with type 'void(Line)' {aka 'void(struct line)'}
+   36 |     output(line);
+      |     ^~~~~~
+
+]633;E;gcc -g "d:\x5cCpro\x5cfpc-advanced-classroom-1st-year-assignment-Siva117-star\x5cset03\x5cproblem07.c" -o "d:\x5cCpro\x5cfpc-advanced-classroom-1st-year-assignment-Siva117-star\x5cset03\x5cproblem07.exe" 2>&1;c3a29cac-435e-40f7-822f-5bf81d24e2ba]633;D;1]633;A]633;P;Cwd=D:\x5cCproPS D:\Cpro> ]633;B

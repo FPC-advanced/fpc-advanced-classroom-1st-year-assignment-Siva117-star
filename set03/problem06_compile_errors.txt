@@ -1,0 +1,353 @@
+Compilation started at 10/31/2023, 11:14:22 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:26:5: warning: implicit declaration of function 'input_string' [-Wimplicit-function-declaration]
+   26 |     input_string(a, b);
+      |     ^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:27:13: warning: implicit declaration of function 'sub_str_index' [-Wimplicit-function-declaration]
+   27 |     index = sub_str_index(a, b);
+      |             ^~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:28:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   28 |     output(a, b, index);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:34:6: warning: conflicting types for 'input_string'; have 'void(char *, char *)'
+   34 | void input_string(char* a, char* b);
+      |      ^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:26:5: note: previous implicit declaration of 'input_string' with type 'void(char *, char *)'
+   26 |     input_string(a, b);
+      |     ^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:36:7: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   36 |  void output(char *string, char *substring, int index);
+      |       ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:28:5: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   28 |     output(a, b, index);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:49:10: error: redeclaration of 'l' with no linkage
+   49 |    int j,l;
+      |          ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:47:12: note: previous declaration of 'l' with type 'int'
+   47 |    int m,k,l;
+      |            ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:59:30: warning: comparison between pointer and integer
+   59 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:14:22 AM
+Compilation started at 10/31/2023, 11:17:23 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:27:5: warning: implicit declaration of function 'input_string' [-Wimplicit-function-declaration]
+   27 |     input_string(a, b);
+      |     ^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:28:13: warning: implicit declaration of function 'sub_str_index' [-Wimplicit-function-declaration]
+   28 |     index = sub_str_index(a, b);
+      |             ^~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:31:9: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   31 |         output(a, b, index);
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:42:6: warning: conflicting types for 'input_string'; have 'void(char *, char *)'
+   42 | void input_string(char* a, char* b);
+      |      ^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:27:5: note: previous implicit declaration of 'input_string' with type 'void(char *, char *)'
+   27 |     input_string(a, b);
+      |     ^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:44:7: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   44 |  void output(char *string, char *substring, int index);
+      |       ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:31:9: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   31 |         output(a, b, index);
+      |         ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:57:10: error: redeclaration of 'l' with no linkage
+   57 |    int j,l;
+      |          ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:55:12: note: previous declaration of 'l' with type 'int'
+   55 |    int m,k,l;
+      |            ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:67:30: warning: comparison between pointer and integer
+   67 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:17:24 AM
+Compilation started at 10/31/2023, 11:27:12 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:58:10: error: redeclaration of 'l' with no linkage
+   58 |    int j,l;
+      |          ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:56:12: note: previous declaration of 'l' with type 'int'
+   56 |    int m,k,l;
+      |            ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:68:30: warning: comparison between pointer and integer
+   68 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:27:12 AM
+Compilation started at 10/31/2023, 11:27:49 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:68:30: warning: comparison between pointer and integer
+   68 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:27:50 AM
+Compilation started at 10/31/2023, 11:29:25 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: parameter names (without types) in function declaration
+   33 |     void output(string,substring,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:64:30: warning: comparison between pointer and integer
+   64 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:29:26 AM
+Compilation started at 10/31/2023, 11:30:10 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: parameter names (without types) in function declaration
+   33 |     void output(a,b,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:64:30: warning: comparison between pointer and integer
+   64 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:30:10 AM
+Compilation started at 10/31/2023, 11:31:55 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:34:5: warning: parameter names (without types) in function declaration
+   34 |     void output(string,substring,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:65:30: warning: comparison between pointer and integer
+   65 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:31:56 AM
+Compilation started at 10/31/2023, 11:32:39 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:34:5: warning: parameter names (without types) in function declaration
+   34 |     void output(string,substring,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:65:30: warning: comparison between pointer and integer
+   65 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:32:39 AM
+Compilation started at 10/31/2023, 11:33:45 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:34:5: warning: parameter names (without types) in function declaration
+   34 |     void output(string,substring,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:57:30: warning: comparison between pointer and integer
+   57 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:33:45 AM
+Compilation started at 10/31/2023, 11:35:58 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:34:5: warning: parameter names (without types) in function declaration
+   34 |     void output(a,b,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:57:30: warning: comparison between pointer and integer
+   57 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:35:58 AM
+Compilation started at 10/31/2023, 11:39:50 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:34:5: warning: parameter names (without types) in function declaration
+   34 |     void output(a,b,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:57:30: warning: comparison between pointer and integer
+   57 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:39:50 AM
+Compilation started at 10/31/2023, 11:41:24 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: parameter names (without types) in function declaration
+   33 |     void output(a,b,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:56:30: warning: comparison between pointer and integer
+   56 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:41:24 AM
+Compilation started at 10/31/2023, 11:43:05 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: parameter names (without types) in function declaration
+   33 |     void output(a,b,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:56:30: warning: comparison between pointer and integer
+   56 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:43:05 AM
+Compilation started at 10/31/2023, 11:43:42 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: parameter names (without types) in function declaration
+   33 |     void output(a,b,index);
+      |     ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:56:30: warning: comparison between pointer and integer
+   56 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+Compilation finished at 10/31/2023, 11:43:42 AM
+Compilation started at 10/31/2023, 11:45:30 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   33 |     output(a,b,index);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:56:30: warning: comparison between pointer and integer
+   56 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:72:6: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   72 | void output( char *a,char *b ,int index){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   33 |     output(a,b,index);
+      |     ^~~~~~
+Compilation finished at 10/31/2023, 11:45:30 AM
+Compilation started at 10/31/2023, 11:46:08 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   33 |     output(a,b,index);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:56:30: warning: comparison between pointer and integer
+   56 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:72:6: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   72 | void output( char *string,char *substring ,int index){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   33 |     output(a,b,index);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:73:43: error: 'a' undeclared (first use in this function)
+   73 |     printf("The  index of %s in %s is %d",a,b,index);
+      |                                           ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:73:43: note: each undeclared identifier is reported only once for each function it appears in
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:73:45: error: 'b' undeclared (first use in this function)
+   73 |     printf("The  index of %s in %s is %d",a,b,index);
+      |                                             ^
+Compilation finished at 10/31/2023, 11:46:08 AM
+Compilation started at 10/31/2023, 11:46:31 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   33 |     output(a,b,index);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:56:30: warning: comparison between pointer and integer
+   56 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:72:6: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   72 | void output( char *string,char *substring ,int index){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   33 |     output(a,b,index);
+      |     ^~~~~~
+Compilation finished at 10/31/2023, 11:46:31 AM
+Compilation started at 10/31/2023, 11:47:27 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   33 |     output(a,b,index);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:56:30: warning: comparison between pointer and integer
+   56 |         for (j=0;substring[j]!="\0";j++)
+      |                              ^~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:72:6: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   72 | void output( char *string,char *substring ,int index){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   33 |     output(a,b,index);
+      |     ^~~~~~
+Compilation finished at 10/31/2023, 11:47:27 AM
+Compilation started at 10/31/2023, 11:54:26 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   33 |     output(a,b,index);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   48 |     int M = strlen(string);
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include<stdio.h>
+  +++ |+#include <string.h>
+   22 | void input_string(char* a, char* b);
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   48 |     int M = strlen(string);
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: note: include '<string.h>' or provide a declaration of 'strlen'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:68:6: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   68 | void output( char *string,char *substring ,int index){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   33 |     output(a,b,index);
+      |     ^~~~~~
+Compilation finished at 10/31/2023, 11:54:26 AM
+Compilation started at 10/31/2023, 11:55:31 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   33 |     output(a,b,i);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   48 |     int M = strlen(string);
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include<stdio.h>
+  +++ |+#include <string.h>
+   22 | void input_string(char* a, char* b);
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   48 |     int M = strlen(string);
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: note: include '<string.h>' or provide a declaration of 'strlen'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:68:6: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   68 | void output( char *string,char *substring ,int i){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   33 |     output(a,b,i);
+      |     ^~~~~~
+Compilation finished at 10/31/2023, 11:55:31 AM
+Compilation started at 10/31/2023, 11:57:42 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   33 |     output(a,b,i);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:50:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   50 |     int M = strlen(string);
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include<stdio.h>
+  +++ |+#include <string.h>
+   22 | void input_string(char* a, char* b);
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:50:13: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   50 |     int M = strlen(string);
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:50:13: note: include '<string.h>' or provide a declaration of 'strlen'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:68:6: warning: conflicting types for 'output'; have 'void(char *, char *, int)'
+   68 | void output( char *string,char *substring ,int i){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:33:5: note: previous implicit declaration of 'output' with type 'void(char *, char *, int)'
+   33 |     output(a,b,i);
+      |     ^~~~~~
+Compilation finished at 10/31/2023, 11:57:43 AM
+Compilation started at 11/10/2023, 1:09:49 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c: In function 'sub_str_index':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   48 |     int M = strlen(string);
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include<stdio.h>
+  +++ |+#include <string.h>
+   22 | void input_string(char* a, char* b);
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   48 |     int M = strlen(string);
+      |             ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem06.c:48:13: note: include '<string.h>' or provide a declaration of 'strlen'
+Compilation finished at 11/10/2023, 1:09:50 PM

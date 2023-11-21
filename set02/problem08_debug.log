@@ -1,0 +1,19 @@
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem08.exe 
+[New Thread 8236.0x30c8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 8236.0x30c8 exited with code 0]
+[Inferior 1 (process 8236) exited normally]
++cd "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03"
+"d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03": Invalid argument.
++gdb ./problem01
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem01_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem08_debug.log.
++set trace-commands on
++q

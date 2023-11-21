@@ -22,7 +22,7 @@ float square_root( float n)
 {
     float x,small=0.00001;
     x=n;
-    while((x*x-n)==small) //The result is same
+    while((x*x-n)==small) // it keeps get executing till ==small
     {
         x=0.5*(x+n/x);
     }

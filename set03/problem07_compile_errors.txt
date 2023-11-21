@@ -1,0 +1,34 @@
+Compilation started at 10/30/2023, 10:12:33 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:34:17: warning: implicit declaration of function 'input_line' [-Wimplicit-function-declaration]
+   34 |     Line line = input_line();
+      |                 ^~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:34:17: error: invalid initializer
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:35:5: warning: implicit declaration of function 'find_length' [-Wimplicit-function-declaration]
+   35 |     find_length(&line);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:36:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   36 |     output(line);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:51:6: error: conflicting types for 'input_line'; have 'Line()' {aka 'struct line()'}
+   51 | Line input_line() {
+      |      ^~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:34:17: note: previous implicit declaration of 'input_line' with type 'int()'
+   34 |     Line line = input_line();
+      |                 ^~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:61:6: warning: conflicting types for 'find_length'; have 'void(Line *)' {aka 'void(struct line *)'}
+   61 | void find_length(Line *l) {
+      |      ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:35:5: note: previous implicit declaration of 'find_length' with type 'void(Line *)' {aka 'void(struct line *)'}
+   35 |     find_length(&line);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:68:6: warning: conflicting types for 'output'; have 'void(Line)' {aka 'void(struct line)'}
+   68 | void output(Line l) {
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set03\problem07.c:36:5: note: previous implicit declaration of 'output' with type 'void(Line)' {aka 'void(struct line)'}
+   36 |     output(line);
+      |     ^~~~~~
+Compilation finished at 10/30/2023, 10:12:33 AM
+Compilation started at 10/30/2023, 10:13:26 AM
+Compilation finished at 10/30/2023, 10:13:26 AM

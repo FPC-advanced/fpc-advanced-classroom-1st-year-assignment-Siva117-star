@@ -1,0 +1,28 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231022200428
+Username: DESKTOP-5E8KKA7\KOTA VENKATESHWARA R
+RunAs User: DESKTOP-5E8KKA7\KOTA VENKATESHWARA R
+Configuration Name: 
+Machine: DESKTOP-5E8KKA7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\KOTA VENKATESHWARA R\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 10776
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem07_session.txt
+PS D:\Cpro> gcc -g "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem07.c" -o "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem07.exe" 2>&1
+
+PS D:\Cpro> d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set02\problem07.exe
+The area of triangle is: 2691.000000
+PS D:\Cpro> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231022200509
+**********************
