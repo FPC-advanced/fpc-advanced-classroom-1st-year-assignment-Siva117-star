@@ -4,6 +4,16 @@ struct _complex {
     float imaginary;
 };
 typedef struct _complex Complex;
+
+int main() {
+    int n;
+    n = get_n(); 
+    Complex numbers[n];
+    input_n_complex(n, numbers);
+    Complex result = add_n_complex(n, numbers);
+    output(n, numbers, result);
+    return 0;
+}
 int get_n() {
     int n;
     printf("Enter the number of complex numbers (n): ");
@@ -52,20 +62,3 @@ void output(int n, Complex c[n], Complex result) {
     printf("= %.2f + %.2fi\n", result.real, result.imaginary);
 }
 
-int main() {
-    int n;
-    n = get_n(); 
-    
-    Complex numbers[n];
-    
-    
-    input_n_complex(n, numbers);
-    
-    
-    Complex result = add_n_complex(n, numbers);
-    
-    
-    output(n, numbers, result);
-    
-    return 0;
-}

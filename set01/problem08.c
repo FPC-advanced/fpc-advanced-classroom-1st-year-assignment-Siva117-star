@@ -32,8 +32,8 @@ void get_array_values(int n, int a[n])
 int find_sum_array(int n, int a[n] )
 {  
     int i=0;
-    int sum;
-    for (int i = 0; i <=n; i++) 
+    int sum=0;
+    for (int i = 0; i <n; i++) 
     {
         sum =sum+ a[i];
     }
@@ -46,5 +46,5 @@ void output(int n, int a[n], int sum)
     {
     printf("%d+",a[i]);
     }
-    printf("the sum is ",sum);
+    printf("the sum is %d",sum);
 }
