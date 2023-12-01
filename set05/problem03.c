@@ -15,7 +15,8 @@
 // //or
 // void find_weight(Camel *c); //passing address variable
 // void output(Camel c);
-
+#include<stdio.h>
+#include<math.h>
 struct camel
 {
   float radius, height, length,weight;
@@ -32,7 +33,7 @@ Camel input(){
     scanf("%f",c.length);
 }
 float find_weight(Camel c){
-    c.weight=3.14 * c.radius*c.radius*c.radius*;
+    c.weight=3.14 * c.radius*c.radius*c.radius*sqrt(c.height*c.length);
 }
 
 // `weight = pi * stomach_radius^3 * sqrt(height * length)
