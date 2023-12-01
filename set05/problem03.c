@@ -25,7 +25,7 @@ typedef struct camel Camel;
 
 int main(){
     Camel c;
-    c=input();
+    Camel c=input();
     find_weight(c);
     output(c);
     return 0;
@@ -44,7 +44,7 @@ Camel input(){
 }
 float find_weight(Camel c){
     c.weight=3.14 * c.radius*c.radius*c.radius*sqrt(c.height*c.length);
-    return c.weight;
+    // return c.weight;
 }
 
 void output(Camel c){
