@@ -23,17 +23,30 @@ struct camel
 };
 typedef struct camel Camel;
 
+int main(){
+    Camel c;
+    c=input();
+    find_weight(c);
+    output(c);
+    return 0;
+    
+}
 Camel input(){
-    struct camel c ;
+    
+    Camel c;
     printf("Enter the radius of camel");
-    scanf("%f",c.radius);
+    scanf("%f",&c.radius);
     printf("Enter the Height of camel");
-    scanf("%f",c.height);
+    scanf("%f",&c.height);
     printf("Enter the Lenght of camel");
-    scanf("%f",c.length);
+    scanf("%f",&c.length);
+    return c;
 }
 float find_weight(Camel c){
     c.weight=3.14 * c.radius*c.radius*c.radius*sqrt(c.height*c.length);
+    return c.weight;
 }
 
-// `weight = pi * stomach_radius^3 * sqrt(height * length)
+void output(Camel c){
+    printf("The weight of the camel is %f",c.weight);
+}

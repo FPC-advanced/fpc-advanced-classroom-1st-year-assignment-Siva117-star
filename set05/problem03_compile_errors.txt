@@ -1,0 +1,181 @@
+Compilation started at 12/1/2023, 4:24:36 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: warning: implicit declaration of function 'find_weight' [-Wimplicit-function-declaration]
+   29 |     find_weight();
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:30:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   30 |     output();
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:41:7: error: conflicting types for 'find_weight'; have 'float(Camel)' {aka 'float(struct camel)'}
+   41 | float find_weight(Camel c){
+      |       ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: note: previous implicit declaration of 'find_weight' with type 'int()'
+   29 |     find_weight();
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:45:6: warning: conflicting types for 'output'; have 'void(Camel)' {aka 'void(struct camel)'}
+   45 | void output(Camel c){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:30:5: note: previous implicit declaration of 'output' with type 'void(Camel)' {aka 'void(struct camel)'}
+   30 |     output();
+      |     ^~~~~~
+Compilation finished at 12/1/2023, 4:24:36 PM
+Compilation started at 12/1/2023, 4:27:18 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: warning: implicit declaration of function 'find_weight' [-Wimplicit-function-declaration]
+   29 |     find_weight(c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:30:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   30 |     output(c);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:41:7: error: conflicting types for 'find_weight'; have 'float(Camel)' {aka 'float(struct camel)'}
+   41 | float find_weight(Camel c){
+      |       ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: note: previous implicit declaration of 'find_weight' with type 'int()'
+   29 |     find_weight(c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:45:6: warning: conflicting types for 'output'; have 'void(Camel)' {aka 'void(struct camel)'}
+   45 | void output(Camel c){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:30:5: note: previous implicit declaration of 'output' with type 'void(Camel)' {aka 'void(struct camel)'}
+   30 |     output(c);
+      |     ^~~~~~
+Compilation finished at 12/1/2023, 4:27:19 PM
+Compilation started at 12/1/2023, 4:31:46 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:27:15: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+   27 |      Camel c= input();
+      |               ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:27:15: error: invalid initializer
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:5: warning: implicit declaration of function 'find_weight' [-Wimplicit-function-declaration]
+   28 |     find_weight(&c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   29 |     output(c);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:31:7: error: conflicting types for 'input'; have 'Camel()' {aka 'struct camel()'}
+   31 | Camel input(){
+      |       ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:27:15: note: previous implicit declaration of 'input' with type 'int()'
+   27 |      Camel c= input();
+      |               ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:40:7: error: conflicting types for 'find_weight'; have 'float(Camel *)' {aka 'float(struct camel *)'}
+   40 | float find_weight(Camel *c){
+      |       ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:5: note: previous implicit declaration of 'find_weight' with type 'int()'
+   28 |     find_weight(&c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: In function 'find_weight':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:41:6: error: 'c' is a pointer; did you mean to use '->'?
+   41 |     c.weight->3.14 * c.radius*c.radius*c.radius*sqrt(c.height*c.length);
+      |      ^
+      |      ->
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:41:15: error: expected identifier before numeric constant
+   41 |     c.weight->3.14 * c.radius*c.radius*c.radius*sqrt(c.height*c.length);
+      |               ^~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:44:6: warning: conflicting types for 'output'; have 'void(Camel)' {aka 'void(struct camel)'}
+   44 | void output(Camel c){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: note: previous implicit declaration of 'output' with type 'void(Camel)' {aka 'void(struct camel)'}
+   29 |     output(c);
+      |     ^~~~~~
+Compilation finished at 12/1/2023, 4:31:46 PM
+Compilation started at 12/1/2023, 4:32:47 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:27:15: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+   27 |      Camel c= input();
+      |               ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:27:15: error: invalid initializer
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:5: warning: implicit declaration of function 'find_weight' [-Wimplicit-function-declaration]
+   28 |     find_weight(c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   29 |     output(c);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:31:7: error: conflicting types for 'input'; have 'Camel()' {aka 'struct camel()'}
+   31 | Camel input(){
+      |       ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:27:15: note: previous implicit declaration of 'input' with type 'int()'
+   27 |      Camel c= input();
+      |               ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:40:7: error: conflicting types for 'find_weight'; have 'float(Camel)' {aka 'float(struct camel)'}
+   40 | float find_weight(Camel c){
+      |       ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:5: note: previous implicit declaration of 'find_weight' with type 'int()'
+   28 |     find_weight(c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:44:6: warning: conflicting types for 'output'; have 'void(Camel)' {aka 'void(struct camel)'}
+   44 | void output(Camel c){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: note: previous implicit declaration of 'output' with type 'void(Camel)' {aka 'void(struct camel)'}
+   29 |     output(c);
+      |     ^~~~~~
+Compilation finished at 12/1/2023, 4:32:47 PM
+Compilation started at 12/1/2023, 5:22:37 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:7: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+   28 |     c=input();
+      |       ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:7: error: incompatible types when assigning to type 'Camel' {aka 'struct camel'} from type 'int'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: warning: implicit declaration of function 'find_weight' [-Wimplicit-function-declaration]
+   29 |     find_weight(c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:30:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   30 |     output(c);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:34:7: error: conflicting types for 'input'; have 'Camel()' {aka 'struct camel()'}
+   34 | Camel input(){
+      |       ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:7: note: previous implicit declaration of 'input' with type 'int()'
+   28 |     c=input();
+      |       ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:45:7: error: conflicting types for 'find_weight'; have 'float(Camel)' {aka 'float(struct camel)'}
+   45 | float find_weight(Camel c){
+      |       ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: note: previous implicit declaration of 'find_weight' with type 'int()'
+   29 |     find_weight(c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:50:6: warning: conflicting types for 'output'; have 'void(Camel)' {aka 'void(struct camel)'}
+   50 | void output(Camel c){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:30:5: note: previous implicit declaration of 'output' with type 'void(Camel)' {aka 'void(struct camel)'}
+   30 |     output(c);
+      |     ^~~~~~
+Compilation finished at 12/1/2023, 5:22:37 PM
+Compilation started at 12/1/2023, 5:22:50 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:7: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+   28 |     c=input();
+      |       ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:7: error: incompatible types when assigning to type 'Camel' {aka 'struct camel'} from type 'int'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: warning: implicit declaration of function 'find_weight' [-Wimplicit-function-declaration]
+   29 |     find_weight(c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:30:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   30 |     output(c);
+      |     ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c: At top level:
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:34:7: error: conflicting types for 'input'; have 'Camel()' {aka 'struct camel()'}
+   34 | Camel input(){
+      |       ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:28:7: note: previous implicit declaration of 'input' with type 'int()'
+   28 |     c=input();
+      |       ^~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:45:7: error: conflicting types for 'find_weight'; have 'float(Camel)' {aka 'float(struct camel)'}
+   45 | float find_weight(Camel c){
+      |       ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:29:5: note: previous implicit declaration of 'find_weight' with type 'int()'
+   29 |     find_weight(c);
+      |     ^~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:50:6: warning: conflicting types for 'output'; have 'void(Camel)' {aka 'void(struct camel)'}
+   50 | void output(Camel c){
+      |      ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set05\problem03.c:30:5: note: previous implicit declaration of 'output' with type 'void(Camel)' {aka 'void(struct camel)'}
+   30 |     output(c);
+      |     ^~~~~~
+Compilation finished at 12/1/2023, 5:22:50 PM

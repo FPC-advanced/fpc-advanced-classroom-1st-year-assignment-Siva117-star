@@ -19,8 +19,7 @@ Complex add_complex(Complex a, Complex b) {
     return sum;
 }
 void output(Complex a, Complex b, Complex sum) {
-    printf("Sum of (%.2f + %.2fi) and (%.2f + %.2fi) is: %.2f + %.2fi\n",
-           a.real, a.imaginary, b.real, b.imaginary, sum.real, sum.imaginary);
+    printf("Sum of (%.2f + %.2fi) and (%.2f + %.2fi) is: %.2f + %.2fi\n",a.real, a.imaginary, b.real, b.imaginary, sum.real, sum.imaginary);
 }
 int main() {
     Complex num1, num2, result;
