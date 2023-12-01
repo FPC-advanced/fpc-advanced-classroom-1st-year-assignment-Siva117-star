@@ -22,4 +22,8 @@ struct camel
 };
 typedef struct camel Camel;
 
-Camel input()
+Camel input(){
+    struct camel Camel ;
+    
+
+}
