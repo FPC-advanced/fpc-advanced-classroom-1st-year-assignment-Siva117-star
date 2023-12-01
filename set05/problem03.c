@@ -24,6 +24,10 @@ typedef struct camel Camel;
 
 Camel input(){
     struct camel Camel ;
-    
-
+    printf("Enter the radius of camel");
+    scanf("%f",Camel.radius);
+    printf("Enter the Height of camel");
+    scanf("%f",Camel.height);
+    printf("Enter the Lenght of camel");
+    scanf("%f",Camel.length);
 }
