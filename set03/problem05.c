@@ -18,29 +18,38 @@
 // 2, 3, 7, 11, 13, 19, 23, 29, 31
 // ```
 // i should do
-int input_array_size();
- void init_array(int n, int a[n]);
- void erotosthenes_sieve(int n, int a[n]);
- void output(int n, int a[n]);
-
-int main(){
-
-} 
-
-int input_array_size(){
-    int x;
-    prinf("Enter the array size %d",&x);
-    return x;
+#include <stdio.h>
+int main() {
+   int n = input_array_size();
+   int a[n];
+   init_array(n,a);
+   erotosthenes_sieve(n,a);
+   output(n,a);
+   return 0;
+}
+int input_array_size() {
+   int n;
+   printf("Enter the number: ");
+   scanf("%d", &n);
+   return n;
+}
+void init_array(int n, int a[n]) {
+   for(int i = 0; i < n; i++)
+       a[i] = i + 2;
+}
+void erotosthenes_sieve(int n, int a[n]) {
+   for(int i = 0; i * i <= n; i++) {
+       if(a[i] != 0) {
+           for(int j = i * i; j < n; j += a[i])
+               a[j] = 0;
+       }
+   }
+}
+void output(int n, int a[n]) {
+   for(int i = 0; i < n; i++)
+       if(a[i] != 0)
+           printf("%d ", a[i]);
+   printf("\n");
 }
 
-void init_array(int n, int a[n]){
-    printf("Enter the array elements");
-    int i=0;
-    for(i=0;i<n;i++){
-        scanf("%d",&a[i]);
-    }
-    return a[i];
-}
-void erotosthenes_sieve(int n, int a[n]){
-    int p;
-}
+

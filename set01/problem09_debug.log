@@ -40,3 +40,10 @@ Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-sta
 [Thread 7248.0x3aa0 exited with code 0]
 [Inferior 1 (process 7248) exited normally]
 +set loggin off
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem09.exe 
+[New Thread 7700.0x2d3c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 7700.0x2d3c exited with code 0]
+[Inferior 1 (process 7700) exited normally]
++q
