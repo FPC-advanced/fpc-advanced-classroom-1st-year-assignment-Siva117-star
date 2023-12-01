@@ -16,3 +16,7 @@
 // void find_weight(Camel *c); //passing address variable
 // void output(Camel c);
 
+struct camel
+{
+  float radius, height, length,weight;
+};
