@@ -60,7 +60,7 @@ int find_largest_index(int n, int a[n]) {
     return larg;
 }
 
-// Function to output the result
+
 void output(int index) {
     printf("The index of the largest number in the array is %d\n", index);
 }
