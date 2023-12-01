@@ -31,3 +31,6 @@ Camel input(){
     printf("Enter the Lenght of camel");
     scanf("%f",Camel.length);
 }
+float find_weight(Camel c){
+    
+}
