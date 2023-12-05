@@ -17,7 +17,7 @@
 // ```
 // 2, 3, 7, 11, 13, 19, 23, 29, 31
 // ```
-// i should do
+// 
 #include <stdio.h>
 int main() {
    int n = input_array_size();
