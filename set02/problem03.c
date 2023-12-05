@@ -18,13 +18,11 @@ void output(int n, int result);
 
     int is_composite(int n){
         int x=0,i;
-        for (i=1;i<=n;i++)
-        {
-            if(n%i==0){
-                x++;
-                }
-        }
-        return x;
+        if(n%i==0){
+                return x;
+            }
+        
+        
         
     }
 

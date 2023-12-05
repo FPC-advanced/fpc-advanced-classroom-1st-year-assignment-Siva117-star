@@ -55,7 +55,7 @@ void input_coefficients(int n, float a[n]){
      {
         scanf("%f",&a[i]);
      }
-    //  return a[n]; // this change is been made
+    
      
     
  }

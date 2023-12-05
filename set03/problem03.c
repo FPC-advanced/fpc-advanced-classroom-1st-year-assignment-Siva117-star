@@ -53,7 +53,7 @@ void output(int n,int result){
        if(is_prime){
         printf(" The number %d  is prime ",n);
        }else{
-        printf(" %d The number is not prime",n);
+        printf(" %d  number is not prime",n);
        }
 
 }

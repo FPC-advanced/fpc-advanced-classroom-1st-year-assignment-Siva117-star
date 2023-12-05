@@ -37,7 +37,7 @@ int check_scalene(int a, int b, int c){
     }
 }
 void output(int a, int b, int c, int sca){
-    printf("The sides %d ,%d,%d  is =",a,b,c);
+    printf("The sides   is = %d ,%d,%d \n",a,b,c);
     if(sca){
         printf("it is scalene");
     }else{

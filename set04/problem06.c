@@ -17,12 +17,13 @@
 // The number of words in "hello world hello" is 3
 // ```
 
-void input_string(char *a);
-int count_words(char *string);
-void output(char *string, int no_words);
 
 #include <stdio.h>
 #include <string.h>
+
+void input_string(char *a);
+int count_words(char *string);
+void output(char *string, int no_words);
 int main() {
     char inputString[50]; 
     input_string(inputString);
