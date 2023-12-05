@@ -1,1 +1,128 @@
 +q
++b 9
+Breakpoint 1 at 0x1400015f2: file d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c, line 9.
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe 
+[New Thread 14208.0x4d0c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, input_two_strings (string1=0x55bbff7d0 "P,ãu¿\001", string2=0x55bbff760 "\001") at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:9
+9	    printf("enter the 1st word ");
++n
+10	    scanf("%s",string1);
++n
+11	    printf("enter the 1st word ");
++n
+12	    scanf("%s",string2);
++n
+13	}
++n
+main () at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:56
+56	    output(string1,string2,result);
++q
++b 55
+Breakpoint 1 at 0x140001780: file d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c, line 56.
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe 
+[New Thread 2300.0x4aac]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:56
+56	    output(string1,string2,result);
++step
+output (string1=0x4ed7fffbf0 "hello", string2=0x4ed7fffb80 "hellw", result=0) at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:37
+37	    if (result==0)
++n
+39	        printf(" %s is greater ",string1);
++n
+49	}
++n
+main () at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:57
+57	    return 0;
++n
+59	}
++n
+0x00007ff7aaba13c1 in __tmainCRTStartup ()
++n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 2300.0x4aac exited with code 0]
+[Inferior 1 (process 2300) exited normally]
++n
+The program is not being run.
++b 55
+Note: breakpoint 1 also set at pc 0x7ff7aaba1780.
+Breakpoint 2 at 0x7ff7aaba1780: file d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c, line 56.
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe 
+[New Thread 10796.0x2870]
+
+Thread 1 hit Breakpoint 1, main () at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:56
+56	    output(string1,string2,result);
++b 14
+Breakpoint 3 at 0x7ff7aaba1650: file d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c, line 18.
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe 
+[New Thread 11044.0x4cd8]
+
+Thread 1 hit Breakpoint 1, main () at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:56
+56	    output(string1,string2,result);
++q
++b 14
+Breakpoint 1 at 0x140001650: file d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c, line 18.
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe 
+[New Thread 19744.0x3594]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 19744.0x3594 exited with code 0]
+[Inferior 1 (process 19744) exited normally]
++q
++b 53
+Breakpoint 1 at 0x140001770: file d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c, line 53.
++b 53
+Note: breakpoint 1 also set at pc 0x140001770.
+Breakpoint 2 at 0x140001770: file d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c, line 53.
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe 
+[New Thread 6992.0x2710]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:53
+53	    input_two_strings(string1,string2);
++step
+input_two_strings (string1=0xee29dff990 "P,þqD\002", string2=0xee29dff920 "\001") at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:9
+9	    printf("enter the 1st word ");
++n
+10	    scanf("%s",string1);
++n
+11	    printf("enter the 1st word ");
++n
+12	    scanf("%s",string2);
++n
+13	}
++n
+main () at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:56
+56	    output(string1,string2,result);
++cd "d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01"
+"d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01": Invalid argument.
++gdb ./problem10
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[Thread 6992.0x2710 exited with code 0]
+[Inferior 1 (process 6992) exited normally]
++set logging file problem10_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem10_debug.log.
++set trace-commands on
++r
+Starting program: d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.exe 
+[New Thread 12312.0x3eb8]
+
+Thread 1 hit Breakpoint 1, main () at d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:53
+53	    input_two_strings(string1,string2);
++hellq
+Undefined command: "hellq".  Try "help".
++q

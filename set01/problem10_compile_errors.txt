@@ -46,3 +46,185 @@ d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.
 d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:12:6: note: in a call to function 'check'
    12 | void check(char string1[100],char string2[100],char *out[100])
       |      ^~~~~
+Compilation started at 12/5/2023, 10:20:22 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'check':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:13: warning: assignment to 'char *' from incompatible pointer type 'char **' [-Wincompatible-pointer-types]
+   18 |        *out =&string1;
+      |             ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:21:14: warning: assignment to 'char *' from incompatible pointer type 'char **' [-Wincompatible-pointer-types]
+   21 |         *out =&string2;
+      |              ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:23: warning: passing argument 1 of 'input_two_strings' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |     input_two_strings(&string1,&string2);
+      |                       ^~~~~~~~
+      |                       |
+      |                       char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:31: note: expected 'char **' but argument is of type 'char (*)[100]'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |                         ~~~~~~^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:32: warning: passing argument 2 of 'input_two_strings' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |     input_two_strings(&string1,&string2);
+      |                                ^~~~~~~~
+      |                                |
+      |                                char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:50: note: expected 'char **' but argument is of type 'char (*)[100]'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |                                            ~~~~~~^~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:27: warning: passing argument 3 of 'check' from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |     check(string1,string2,&out);
+      |                           ^~~~
+      |                           |
+      |                           char (*)[100]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:12:54: note: expected 'char **' but argument is of type 'char (*)[100]'
+   12 | void check(char string1[100],char string2[100],char *out[100])
+      |                                                ~~~~~~^~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: warning: 'input_two_strings' accessing 800 bytes in a region of size 100 [-Wstringop-overflow=]
+   32 |     input_two_strings(&string1,&string2);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: note: referencing argument 1 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: warning: 'input_two_strings' accessing 800 bytes in a region of size 100 [-Wstringop-overflow=]
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:32:5: note: referencing argument 2 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:6:7: note: in a call to function 'input_two_strings'
+    6 | void  input_two_strings(char *string1[100],char *string2[100]){
+      |       ^~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:5: warning: 'check' accessing 800 bytes in a region of size 100 [-Wstringop-overflow=]
+   33 |     check(string1,string2,&out);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:33:5: note: referencing argument 3 of type 'char **'
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:12:6: note: in a call to function 'check'
+   12 | void check(char string1[100],char string2[100],char *out[100])
+      |      ^~~~~
+Compilation finished at 12/5/2023, 10:20:23 AM
+Compilation started at 12/5/2023, 10:32:15 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:40:16: error: expected ';' before '{' token
+   40 | else(result==3){
+      |                ^
+      |                ;
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:50:5: warning: parameter names (without types) in function declaration
+   50 |     void output(string1,string2,result);
+      |     ^~~~
+Compilation finished at 12/5/2023, 10:32:15 AM
+Compilation started at 12/5/2023, 10:33:14 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:40:16: error: expected ';' before '{' token
+   40 | else(result==3){
+      |                ^
+      |                ;
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'main':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:50:28: error: 'result' undeclared (first use in this function)
+   50 |     output(string1,string2,result);
+      |                            ^~~~~~
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:50:28: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 12/5/2023, 10:33:14 AM
+Compilation started at 12/5/2023, 10:34:34 AM
+Compilation finished at 12/5/2023, 10:34:34 AM
+Compilation started at 12/5/2023, 10:35:15 AM
+Compilation finished at 12/5/2023, 10:35:15 AM
+Compilation started at 12/5/2023, 10:36:04 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'output':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:41:20: error: expected ';' before '{' token
+   41 |     else(result==3)
+      |                    ^
+      |                    ;
+   42 | {
+      | ~                   
+Compilation finished at 12/5/2023, 10:36:04 AM
+Compilation started at 12/5/2023, 10:36:26 AM
+Compilation finished at 12/5/2023, 10:36:27 AM
+Compilation started at 12/5/2023, 10:37:17 AM
+Compilation finished at 12/5/2023, 10:37:17 AM
+Compilation started at 12/5/2023, 10:37:42 AM
+Compilation finished at 12/5/2023, 10:37:42 AM
+Compilation started at 12/5/2023, 10:39:26 AM
+Compilation finished at 12/5/2023, 10:39:26 AM
+Compilation started at 12/5/2023, 10:40:28 AM
+Compilation finished at 12/5/2023, 10:40:28 AM
+Compilation started at 12/5/2023, 10:42:57 AM
+Compilation finished at 12/5/2023, 10:42:57 AM
+Compilation started at 12/5/2023, 10:43:21 AM
+Compilation finished at 12/5/2023, 10:43:21 AM
+Compilation started at 12/5/2023, 10:44:14 AM
+Compilation finished at 12/5/2023, 10:44:14 AM
+Compilation started at 12/5/2023, 10:45:44 AM
+Compilation finished at 12/5/2023, 10:45:45 AM
+Compilation started at 12/5/2023, 10:46:02 AM
+Compilation finished at 12/5/2023, 10:46:02 AM
+Compilation started at 12/5/2023, 10:46:36 AM
+Compilation finished at 12/5/2023, 10:46:36 AM
+Compilation started at 12/5/2023, 10:46:45 AM
+Compilation finished at 12/5/2023, 10:46:45 AM
+Compilation started at 12/5/2023, 10:46:51 AM
+Compilation finished at 12/5/2023, 10:46:51 AM
+Compilation started at 12/5/2023, 10:47:02 AM
+Compilation finished at 12/5/2023, 10:47:03 AM
+Compilation started at 12/5/2023, 10:47:08 AM
+Compilation finished at 12/5/2023, 10:47:08 AM
+Compilation started at 12/5/2023, 10:48:21 AM
+Compilation finished at 12/5/2023, 10:48:22 AM
+Compilation started at 12/5/2023, 10:49:09 AM
+Compilation finished at 12/5/2023, 10:49:10 AM
+Compilation started at 12/5/2023, 10:49:44 AM
+Compilation finished at 12/5/2023, 10:49:44 AM
+Compilation started at 12/5/2023, 10:51:46 AM
+Compilation finished at 12/5/2023, 10:51:46 AM
+Compilation started at 12/5/2023, 10:52:30 AM
+Compilation finished at 12/5/2023, 10:52:30 AM
+Compilation started at 12/5/2023, 10:53:18 AM
+Compilation finished at 12/5/2023, 10:53:18 AM
+Compilation started at 12/5/2023, 10:53:53 AM
+Compilation finished at 12/5/2023, 10:53:53 AM
+Compilation started at 12/5/2023, 10:54:47 AM
+Compilation finished at 12/5/2023, 10:54:48 AM
+Compilation started at 12/5/2023, 10:55:03 AM
+Compilation finished at 12/5/2023, 10:55:03 AM
+Compilation started at 12/5/2023, 10:55:08 AM
+Compilation finished at 12/5/2023, 10:55:09 AM
+Compilation started at 12/5/2023, 11:00:14 AM
+Compilation finished at 12/5/2023, 11:00:14 AM
+Compilation started at 12/5/2023, 11:11:00 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'stringcompare':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:60: warning: comparison between pointer and integer
+   18 |     for(i=0;string1[i]!='\0'==string2[i]!='\0'&&(string1[i]!="\0");i++);
+      |                                                            ^~
+Compilation finished at 12/5/2023, 11:11:00 AM
+Compilation started at 12/5/2023, 11:12:03 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'stringcompare':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:72: warning: comparison between pointer and integer
+   18 |     for(i=0;string1[i]!='\0'==string2[i]!='\0'&&string2[i]!=(string1[i]!="\0");i++);
+      |                                                                        ^~
+Compilation finished at 12/5/2023, 11:12:03 AM
+Compilation started at 12/5/2023, 11:12:59 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'stringcompare':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:72: warning: comparison between pointer and integer
+   18 |     for(i=0;string1[i]!='\0'==string2[i]!='\0'&&string2[i]!=(string1[i]!="\0");i++);
+      |                                                                        ^~
+Compilation finished at 12/5/2023, 11:12:59 AM
+Compilation started at 12/5/2023, 11:13:16 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'stringcompare':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:72: warning: comparison between pointer and integer
+   18 |     for(i=0;string1[i]!='\0'==string2[i]!='\0'&&string2[i]!=(string1[i]!="\0");i++);
+      |                                                                        ^~
+Compilation finished at 12/5/2023, 11:13:16 AM
+Compilation started at 12/5/2023, 11:14:16 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'stringcompare':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:72: warning: comparison between pointer and integer
+   18 |     for(i=0;string1[i]!='\0'==string2[i]!='\0'&&string2[i]!=(string1[i]!="\0");i++);
+      |                                                                        ^~
+Compilation finished at 12/5/2023, 11:14:16 AM
+Compilation started at 12/5/2023, 11:15:16 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'stringcompare':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:72: warning: comparison between pointer and integer
+   18 |     for(i=0;string1[i]!='\0'==string2[i]!='\0'&&string2[i]!=(string1[i]!="\0");i++);
+      |                                                                        ^~
+Compilation finished at 12/5/2023, 11:15:17 AM
+Compilation started at 12/5/2023, 11:16:11 AM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c: In function 'stringcompare':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\set01\problem10.c:18:72: warning: comparison between pointer and integer
+   18 |     for(i=0;string1[i]!='\0'==string2[i]!='\0'&&string2[i]!=(string1[i]!="\0");i++);
+      |                                                                        ^~
+Compilation finished at 12/5/2023, 11:16:11 AM
+Compilation started at 12/5/2023, 11:17:05 AM
+Compilation finished at 12/5/2023, 11:17:06 AM
