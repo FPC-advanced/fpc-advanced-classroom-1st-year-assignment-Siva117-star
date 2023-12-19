@@ -25,11 +25,12 @@ int input(){
 
 int factorial_check(int num){
     int facto;
-    for (int i = 0; i < num; i++)
-    {   
-        
-        facto=num*i;
-        printf("%d ",facto);
+    if (num%2==0)
+    {
+        return 1;
+    }
+    else{
+        return 0;
     }
     
     
