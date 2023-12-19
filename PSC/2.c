@@ -4,14 +4,14 @@
 #include<stdio.h>
 int input();
 int factorial_check(int num);
-void output(int num);
+void output(int num,int fact);
 
 int main(){
     int num,fact;
     num=input();
-    // fact=factorial_check(num);
-    output(num);
     fact=factorial_check(num);
+    output(num);
+    
  
 
 
@@ -27,13 +27,16 @@ int factorial_check(int num){
     int facto;
     if (num%1==0)
     {
-        /* code */
+        return 0;
+    }
+    else{
+        return 1;
     }
     
     
 
 }
 
-void output(int num){
+void output(int num,int fact){
     printf("The Number is %d",num);
 }
