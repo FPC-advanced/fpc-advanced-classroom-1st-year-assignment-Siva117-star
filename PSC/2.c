@@ -38,5 +38,5 @@ int factorial_check(int num){
 }
 
 void output(int num,int fact){
-    printf("The Number is %d",num);
+    
 }
