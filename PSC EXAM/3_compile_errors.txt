@@ -1,0 +1,9 @@
+Compilation started at 12/19/2023, 5:36:14 PM
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\PSC EXAM\3.c: In function 'input_fritacole':
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\PSC EXAM\3.c:41:12: error: expected identifier before '&' token
+   41 | scanf("%d".&x.discipline);
+      |            ^
+d:\Cpro\fpc-advanced-classroom-1st-year-assignment-Siva117-star\PSC EXAM\3.c:42:9: error: incompatible types when returning type 'fritacole' but 'int' was expected
+   42 | return  x;
+      |         ^
+Compilation finished at 12/19/2023, 5:36:14 PM
